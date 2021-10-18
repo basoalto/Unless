@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unless</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+            <div class="hero">
+                <header class="header contenedor">
+                <div class="container">
+                <div class="row">
+                    <div class="two columns u-pull-right">
+                        <ul>
+                            <li class="submenu">
+                                    <img src="img/cart.png" id="img-carrito">
+                                    <div id="carrito">
+                                            
+                                            <table id="lista-carrito" class="u-full-width">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Imagen</th>
+                                                        <th>Nombre</th>
+                                                        <th>Precio</th>
+                                                        <th>Cantidad</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+
+                                            <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                    </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+
+            <nav class="navegacion">
+                <a href="#">Deportes</a>
+                <a href="#">Alimentos</a>
+                <a href="#">Registro</a>
+                <a href="#">Iniciar Sesión</a>
+            </nav>
+        </header>
+        <div class="contenido-hero contenedor">
+            <h1>Encuentra <span> deportes  </span>para tus próximas salidas</h1>
+
+            <form action="/buscador" method="POST" class="formulario formulario-buscar" id="formulario" >
+                <input type="text" name="busqueda" class="busqueda" placeholder="Concepcion, Valdivia, Puerto Montt">
+                <input type="submit" value="Buscar" id="btn-submit">
+            </form>
+        </div>
+    </div> <!--.hero-->
+
+    <main class="contenido contenedor">
+        <section class="hacer">
+            <h2>Que Hacer</h2>
+            <div class="contenedor-cards">
+                    <div class="card">
+                        <img src="img/hacer4.jpg">
+                        <div class="info">
+                            <p class="categoria concierto">Enduro</p>
+                            <p class="titulo">Distancia de 20 kilometros</p>
+                            <p class="precio">$1,200 por persona</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/escalada.jpg">
+                        <div class="info">
+                            <p class="categoria concierto">Escalada</p>
+                            <p class="titulo">Duracion de (2 horas)</p>
+                            <p class="precio">$1.000 por persona</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/hacer3.jpg">
+                        <div class="info">
+                            <p class="categoria clase">Calistenia</p>
+                            <p class="titulo">Movimientos basicos (1 hora)</p>
+                            <p class="precio">$1.500 por persona</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/hacer4.jpg">
+                        <div class="info">
+                            <p class="categoria paseo">Paseo en Bici</p>
+                            <p class="titulo">Paseo en las Montañas (1 hora)</p>
+                            <p class="precio">$2.000 por persona</p>
+                        </div>
+                    </div> <!--.card-->
+            </div> <!--.columnas4 cuadros-->
+        </section>
+
+
+        <section class="hacer">
+            <h2 class="mi-viaje-plus">Presentamos Unless.com Plus</h2>
+            <div class="contenedor-cards premium">
+                <div class="info">
+                    <h3>Una nueva sección de deportes</h3>
+                    <a href="#" class="boton btn-mi-viaje">Explorar deportes</a>
+                </div>
+            </div> <!--.columnas4 cuadros-->
+        </section>
+
+        <section class="hospedaje">
+            <h2>Comidas</h2>
+            <div class="contenedor-cards">
+                    <div class="card">
+                        <img src="img/fruta.jpg">
+                        <div class="info">
+                            <p class="categoria hospedaje">Frutas</p>
+                            <p class="titulo">Cuantas comer al dia?</p>
+                            <p class="precio">/</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/verduras.jpg">
+                        <div class="info">
+                            <p class="categoria hospedaje">Verduras</p>
+                            <p class="titulo">Investigacion para un mejor rendimiento antes de entrenar</p>
+                            <p class="precio">/</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/carnes.jpg">
+                        <div class="info">
+                            <p class="categoria hospedaje">Carnes</p>
+                            <p class="titulo">Cuanto tiempo se demoran en digerir?</p>
+                            <p class="precio">/</p>
+                        </div>
+                    </div> <!--.card-->
+            </div> <!--.columnas4 cuadros-->
+        </section>
+
+        <section class="destinos">
+            <h2>Deportes Populares</h2>
+            <div class="contenedor-cards">
+                    <div class="card">
+                        <img src="img/boxeo.jpg">
+                        <div class="info">
+                            <p class="titulo">Boxeo</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/bote.jpg">
+                        <div class="info">
+                            <p class="titulo">Kayak</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/basketball.jpg">
+                        <div class="info">
+                            <p class="titulo">Basketball</p>
+                        </div>
+                    </div> <!--.card-->
+                    <div class="card">
+                        <img src="img/definicion.jpg">
+                        <div class="info">
+                            <p class="titulo">definicion</p>
+                        </div>
+                    </div> <!--.card-->
+            </div> <!--.columnas4 cuadros-->
+        </section>
+
+        <section class="hacer">
+                <h2>Que Hacer en Concepcion</h2>
+                <div class="contenedor-cards">
+                        <div class="card">
+                            <img src="img/break.jpg">
+                            <div class="info">
+                                <p class="categoria clase">Clase Break dance</p>
+                                <p class="titulo">dos veces a la semana (1 hora por clase)</p>
+                                <p class="precio">$300 por persona</p>
+                            </div>
+                        </div> <!--.card-->
+                        <div class="card">
+                            <img src="img/nutricion.jpg">
+                            <div class="info">
+                                <p class="categoria concierto">Clase de Nutricion</p>
+                                <p class="titulo">Tres veces a la semana (1 hora por clase)</p>
+                                <p class="precio">$1,200 por persona</p>
+                            </div>
+                        </div> <!--.card-->
+                        <div class="card">
+                            <img src="img/comida.jpg">
+                            <div class="info">
+                                <p class="categoria clase">Clase de Cocina Online</p>
+                                <p class="titulo">Nutricion esencial (media hora por dia)</p>
+                                <p class="precio">$200 por persona</p>
+                            </div>
+                        </div> <!--.card-->
+                        <div class="card">
+                            <img src="img/calistenia.jpg">
+                            <div class="info">
+                                <p class="categoria paseo">Calistenia</p>
+                                <p class="titulo">Duracion de 1 hora </p>
+                                <p class="precio">$100 por persona</p>
+                            </div>
+                        </div> <!--.card-->
+                </div> <!--.columnas4 cuadros-->
+            </section>
+
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="contenedor">
+                <div class="nav-footer">
+                    <h3 class="titulo-footer">Unless.com</h3>
+                    <nav class="menu">
+                        <a href="#">Empleo</a>
+                        <a href="#">Prensa</a>
+                        <a href="#">Politicas</a>
+                        <a href="#">Ayuda</a>
+                    </nav>
+                </div>
+
+                <div class="nav-footer">
+                    <h3 class="titulo-footer">Descubre Unless.com</h3>
+                    <nav class="menu">
+                        <a href="#">Confianza y Seguridad</a>
+                        <a href="#">AirBNB Citizen</a>
+                        <a href="#">Trabajo con empresas</a>
+                    </nav>
+                </div>
+
+                <div class="nav-footer">
+                    <h3 class="titulo-footer">Comunidad</h3>
+                    <nav class="menu">
+                        <a href="#">Razones para Incribirse</a>
+                        <a href="#">Ser un anfitrión responsable</a>
+                        <a href="#">Centro de la Comunidad</a>
+                    </nav>
+                </div>
+
+                <div class="nav-footer">
+                    <nav class="sociales">
+                        <ul>
+                            <li><a href="http://facebook.com" target="_blank"><span>Facebook</span></a></li>
+                            <li><a href="http://twitter.com" target="_blank"><span>Twitter</span></a></li>
+                            <li><a href="https://www.instagram.com/basoaltolucas/" target="_blank"><span>Instagram</span></a></li>
+                        </ul>
+                </div>
+        </div>
+    </footer>
+    <a href="#footer" class="btn-flotante">Mas Informacion</a>
+    
+    <script src="js/10-scripts.js"></script>
+    <script src="js/11-scripts.js"></script>
+</body>
+</html>
